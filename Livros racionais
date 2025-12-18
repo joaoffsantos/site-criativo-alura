@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Meus Livros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 30px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 8px;
+        }
+        .livros-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .livro {
+            background-color: #fafafa;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+        .livro h3 {
+            margin-top: 0;
+        }
+        .livro a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #2c3e50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .livro a:hover {
+            background-color: #1a252f;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Meus Livros</h1>
+    <p>Site oficial operado por João Augusto Santos do Nascimento</p>
+</header>
+
+<nav>
+    <a href="#operador">Operador</a>
+    <a href="#livros">Livros</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<section id="operador">
+    <h2>Sobre o Operador</h2>
+    <p>
+        Este site é operado por <strong>João Augusto Santos do Nascimento</strong>, autor e responsável
+        pelo conteúdo, publicações e comercialização das obras apresentadas.
+    </p>
+</section>
+
+<section id="livros">
+    <h2>Meus Livros</h2>
+
+    <div class="livros-container">
+
+        <!-- Livro 1 -->
+        <div class="livro">
+            <h3>Raciocínio Lógico do Ser Humano</h3>
+            <p>Explora como o ser humano pensa, analisa informações e toma decisões com exemplos práticos.</p>
+            <p><strong>Formato:</strong> Digital</p>
+            <p><strong>Preço:</strong> R$ 29,90</p>
+            <a href="https://wa.me/5537999679697?text=Olá,%20quero%20comprar%20o%20livro%20Raciocínio%20Lógico%20do%20Ser%20Humano" target="_blank">Comprar via WhatsApp</a>
+        </div>
+
+        <!-- Livro 2 -->
+        <div class="livro">
+            <h3>Desenvolvendo o Pensamento Crítico</h3>
+            <p>Aprenda técnicas para pensar de forma clara, lógica e resolver problemas do dia a dia.</p>
+            <p><strong>Formato:</strong> Digital</p>
+            <p><st
+
